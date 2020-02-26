@@ -1,0 +1,1040 @@
+/* long cat */
+
+.longcat {
+    height: 180px;
+    width: 180px;
+    margin-top: 15px;
+    margin-left: 4px;
+    /* background: magenta; */
+    display: flex;
+    position: absolute;
+    z-index: 4;
+}
+
+.polygontest {
+    height: 180px;
+    transform: scale(0.55, 0.75);
+    width: 100px;
+    margin-left: -20px;
+    margin-top: -4px;
+    background-color: black;
+    clip-path: polygon(67% 2%, 68% 3%, 68% 5%, 65% 6%, 61% 8%, 63% 10%, 66% 11%, 65% 13%, 59% 16%, 55% 16%, 48% 16%, 45% 17%, 44% 18%, 42% 20%, 42% 22%, 46% 24%, 51% 26%, 54% 27%, 54% 29%, 51% 30%, 47% 30%, 42% 31%, 39% 31%, 33% 33%, 30% 34%, 30% 34%, 33% 37%, 36% 38%, 39% 39%, 44% 40%, 47% 41%, 47% 44%, 44% 45%, 40% 46%, 35% 47%, 30% 48%, 24% 49%, 20% 50%, 20% 53%, 21% 55%, 25% 57%, 30% 59%, 35% 60%, 41% 60%, 46% 62%, 46% 65%, 43% 66%, 38% 68%, 30% 70%, 26% 71%, 22% 73%, 17% 75%, 17% 78%, 20% 82%, 26% 82%, 32% 81%, 38% 82%, 44% 82%, 50% 83%, 54% 85%, 55% 88%, 56% 93%, 61% 94%, 67% 94%, 68% 91%, 68% 88%, 68% 86%, 66% 83%, 63% 79%, 60% 77%, 53% 77%, 46% 77%, 42% 77%, 42% 76%, 44% 74%, 49% 73%, 53% 71%, 57% 69%, 61% 66%, 63% 63%, 62% 60%, 61% 58%, 58% 57%, 51% 56%, 47% 55%, 43% 54%, 46% 53%, 50% 52%, 55% 51%, 60% 49%, 64% 45%, 64% 43%, 63% 41%, 59% 40%, 57% 39%, 54% 38%, 55% 36%, 60% 35%, 65% 34%, 67% 33%, 69% 29%, 69% 27%, 67% 25%, 64% 24%, 62% 22%, 64% 21%, 69% 20%, 74% 18%, 76% 16%, 78% 13%, 77% 11%, 74% 9%, 73% 8%, 78% 6%, 80% 4%, 77% 3%, 72% 1%, 70% 0%);
+}
+
+.polygontest2 {
+    position: absolute;
+    height: 180px;
+    transform: scale(0.55, 0.75);
+    width: 100px;
+    margin-left: -16px;
+    margin-top: -3px;
+    background-color: black;
+    clip-path: polygon(67% 2%, 68% 3%, 68% 5%, 65% 6%, 61% 8%, 63% 10%, 66% 11%, 65% 13%, 59% 16%, 55% 16%, 48% 16%, 45% 17%, 44% 18%, 42% 20%, 42% 22%, 46% 24%, 51% 26%, 54% 27%, 54% 29%, 51% 30%, 47% 30%, 42% 31%, 39% 31%, 33% 33%, 30% 34%, 30% 34%, 33% 37%, 36% 38%, 39% 39%, 44% 40%, 47% 41%, 47% 44%, 44% 45%, 40% 46%, 35% 47%, 30% 48%, 24% 49%, 20% 50%, 20% 53%, 21% 55%, 25% 57%, 30% 59%, 35% 60%, 41% 60%, 46% 62%, 46% 65%, 43% 66%, 38% 68%, 30% 70%, 26% 71%, 22% 73%, 17% 75%, 17% 78%, 20% 82%, 26% 82%, 32% 81%, 38% 82%, 44% 82%, 50% 83%, 54% 85%, 55% 88%, 56% 93%, 61% 94%, 67% 94%, 68% 91%, 68% 88%, 68% 86%, 66% 83%, 63% 79%, 60% 77%, 53% 77%, 46% 77%, 42% 77%, 42% 76%, 44% 74%, 49% 73%, 53% 71%, 57% 69%, 61% 66%, 63% 63%, 62% 60%, 61% 58%, 58% 57%, 51% 56%, 47% 55%, 43% 54%, 46% 53%, 50% 52%, 55% 51%, 60% 49%, 64% 45%, 64% 43%, 63% 41%, 59% 40%, 57% 39%, 54% 38%, 55% 36%, 60% 35%, 65% 34%, 67% 33%, 69% 29%, 69% 27%, 67% 25%, 64% 24%, 62% 22%, 64% 21%, 69% 20%, 74% 18%, 76% 16%, 78% 13%, 77% 11%, 74% 9%, 73% 8%, 78% 6%, 80% 4%, 77% 3%, 72% 1%, 70% 0%);
+}
+
+.polygontest3 {
+    position: absolute;
+    height: 180px;
+    transform: scale(0.55, 0.75);
+    width: 100px;
+    margin-left: -17px;
+    margin-top: -8px;
+    background-color: black;
+    clip-path: polygon(67% 2%, 68% 3%, 68% 5%, 65% 6%, 61% 8%, 63% 10%, 66% 11%, 65% 13%, 59% 16%, 55% 16%, 48% 16%, 45% 17%, 44% 18%, 42% 20%, 42% 22%, 46% 24%, 51% 26%, 54% 27%, 54% 29%, 51% 30%, 47% 30%, 42% 31%, 39% 31%, 33% 33%, 30% 34%, 30% 34%, 33% 37%, 36% 38%, 39% 39%, 44% 40%, 47% 41%, 47% 44%, 44% 45%, 40% 46%, 35% 47%, 30% 48%, 24% 49%, 20% 50%, 20% 53%, 21% 55%, 25% 57%, 30% 59%, 35% 60%, 41% 60%, 46% 62%, 46% 65%, 43% 66%, 38% 68%, 30% 70%, 26% 71%, 22% 73%, 17% 75%, 17% 78%, 20% 82%, 26% 82%, 32% 81%, 38% 82%, 44% 82%, 50% 83%, 54% 85%, 55% 88%, 56% 93%, 61% 94%, 67% 94%, 68% 91%, 68% 88%, 68% 86%, 66% 83%, 63% 79%, 60% 77%, 53% 77%, 46% 77%, 42% 77%, 42% 76%, 44% 74%, 49% 73%, 53% 71%, 57% 69%, 61% 66%, 63% 63%, 62% 60%, 61% 58%, 58% 57%, 51% 56%, 47% 55%, 43% 54%, 46% 53%, 50% 52%, 55% 51%, 60% 49%, 64% 45%, 64% 43%, 63% 41%, 59% 40%, 57% 39%, 54% 38%, 55% 36%, 60% 35%, 65% 34%, 67% 33%, 69% 29%, 69% 27%, 67% 25%, 64% 24%, 62% 22%, 64% 21%, 69% 20%, 74% 18%, 76% 16%, 78% 13%, 77% 11%, 74% 9%, 73% 8%, 78% 6%, 80% 4%, 77% 3%, 72% 1%, 70% 0%);
+}
+
+.polygontest4 {
+    position: absolute;
+    height: 180px;
+    transform: scale(0.55, 0.75);
+    width: 100px;
+    margin-left: -19px;
+    margin-top: -7px;
+    background-color: black;
+    clip-path: polygon(67% 2%, 68% 3%, 68% 5%, 65% 6%, 61% 8%, 63% 10%, 66% 11%, 65% 13%, 59% 16%, 55% 16%, 48% 16%, 45% 17%, 44% 18%, 42% 20%, 42% 22%, 46% 24%, 51% 26%, 54% 27%, 54% 29%, 51% 30%, 47% 30%, 42% 31%, 39% 31%, 33% 33%, 30% 34%, 30% 34%, 33% 37%, 36% 38%, 39% 39%, 44% 40%, 47% 41%, 47% 44%, 44% 45%, 40% 46%, 35% 47%, 30% 48%, 24% 49%, 20% 50%, 20% 53%, 21% 55%, 25% 57%, 30% 59%, 35% 60%, 41% 60%, 46% 62%, 46% 65%, 43% 66%, 38% 68%, 30% 70%, 26% 71%, 22% 73%, 17% 75%, 17% 78%, 20% 82%, 26% 82%, 32% 81%, 38% 82%, 44% 82%, 50% 83%, 54% 85%, 55% 88%, 56% 93%, 61% 94%, 67% 94%, 68% 91%, 68% 88%, 68% 86%, 66% 83%, 63% 79%, 60% 77%, 53% 77%, 46% 77%, 42% 77%, 42% 76%, 44% 74%, 49% 73%, 53% 71%, 57% 69%, 61% 66%, 63% 63%, 62% 60%, 61% 58%, 58% 57%, 51% 56%, 47% 55%, 43% 54%, 46% 53%, 50% 52%, 55% 51%, 60% 49%, 64% 45%, 64% 43%, 63% 41%, 59% 40%, 57% 39%, 54% 38%, 55% 36%, 60% 35%, 65% 34%, 67% 33%, 69% 29%, 69% 27%, 67% 25%, 64% 24%, 62% 22%, 64% 21%, 69% 20%, 74% 18%, 76% 16%, 78% 13%, 77% 11%, 74% 9%, 73% 8%, 78% 6%, 80% 4%, 77% 3%, 72% 1%, 70% 0%);
+}
+
+.polygonfill {
+    position: absolute;
+    height: 180px;
+    transform: scale(0.55, 0.75);
+    width: 100px;
+    margin-left: -18px;
+    margin-top: -5px;
+    background-color: #EFF521;
+    clip-path: polygon(67% 2%, 68% 3%, 68% 5%, 65% 6%, 61% 8%, 63% 10%, 66% 11%, 65% 13%, 59% 16%, 55% 16%, 48% 16%, 45% 17%, 44% 18%, 42% 20%, 42% 22%, 46% 24%, 51% 26%, 54% 27%, 54% 29%, 51% 30%, 47% 30%, 42% 31%, 39% 31%, 33% 33%, 30% 34%, 30% 34%, 33% 37%, 36% 38%, 39% 39%, 44% 40%, 47% 41%, 47% 44%, 44% 45%, 40% 46%, 35% 47%, 30% 48%, 24% 49%, 20% 50%, 20% 53%, 21% 55%, 25% 57%, 30% 59%, 35% 60%, 41% 60%, 46% 62%, 46% 65%, 43% 66%, 38% 68%, 30% 70%, 26% 71%, 22% 73%, 17% 75%, 17% 78%, 20% 82%, 26% 82%, 32% 81%, 38% 82%, 44% 82%, 50% 83%, 54% 85%, 55% 88%, 56% 93%, 61% 94%, 67% 94%, 68% 91%, 68% 88%, 68% 86%, 66% 83%, 63% 79%, 60% 77%, 53% 77%, 46% 77%, 42% 77%, 42% 76%, 44% 74%, 49% 73%, 53% 71%, 57% 69%, 61% 66%, 63% 63%, 62% 60%, 61% 58%, 58% 57%, 51% 56%, 47% 55%, 43% 54%, 46% 53%, 50% 52%, 55% 51%, 60% 49%, 64% 45%, 64% 43%, 63% 41%, 59% 40%, 57% 39%, 54% 38%, 55% 36%, 60% 35%, 65% 34%, 67% 33%, 69% 29%, 69% 27%, 67% 25%, 64% 24%, 62% 22%, 64% 21%, 69% 20%, 74% 18%, 76% 16%, 78% 13%, 77% 11%, 74% 9%, 73% 8%, 78% 6%, 80% 4%, 77% 3%, 72% 1%, 70% 0%);
+}
+
+.longcathead {
+    position: absolute;
+    width: 7px;
+    height: 15px;
+    margin-top: 135px;
+    margin-left: 33px;
+    border-radius: 40%;
+    border: 2px solid black;
+    transform: rotate(-2deg);
+    background-color: #EFF521;
+}
+
+.longcatearleft {
+    position: absolute;
+    margin-top: 149px;
+    margin-left: 36px;
+    transform: rotate(35deg);
+}
+
+.longcatearright {
+    position: absolute;
+    margin-top: 151px;
+    margin-left: 38px;
+    transform: rotate(-35deg);
+}
+
+.longcatbg {
+    position: absolute;
+    margin-left: -2px;
+    margin-top: 1px;
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    
+    border-top: 7px solid #000;
+  }
+
+.longcatear {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    
+    border-top: 5px solid #EFF521;
+  }
+  
+.longcat-face {
+    width: 7px;
+    height: 6px;
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 35px;
+}
+
+.longcat-eye1 {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 1px;
+    width: 2px;
+    height: 2px;
+    background-color: #000;
+    border-radius: 100%;
+}
+
+.longcat-eye2 {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 4px;
+    width: 2px;
+    height: 2px;
+    background-color: #000;
+    border-radius: 100%;
+}
+
+/* sword cat */
+
+.swordcat {
+    position: absolute;
+    width: 120px;
+    height: 130px;
+    /* background-color: teal; */
+    margin-top: -160px;
+    margin-left: 95px;
+}
+.swordcat2 {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    margin-top: -110px;
+    margin-left: 95px;
+}
+
+.swordcat-body {
+    height: 50px;
+    width: 35px;
+    margin-top: 70px;
+    margin-left: 50px;
+    border-radius: 15px;
+    background-color: #CEEBFA;
+    border: 2px solid black;
+}
+
+.swordcat-circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 65px;
+    border-left: 2px solid black;
+    background-color: #CEEBFA;
+}
+
+.swordcat-circle2 {
+    height: 50px;
+    width: 34px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -46px;
+    margin-left: 72px;
+    border-right: 2px solid black;
+    background-color: #CEEBFA;
+    transform: rotate(-30deg);
+}
+
+.ltail {
+    position: absolute;
+    height: 35px;
+    width: 120px;
+    margin-top: -29px;
+}
+
+.ltail1 {
+    height: 30px;
+    width: 35px;
+    border-radius: 100px;
+    margin-left: 86px;
+    border: 2px solid #000;
+    background-color: #CEEBFA;
+    position: absolute;
+}
+.ltail2 {
+    height: 20px;
+    width: 36px;
+    border-radius: 100px;
+    margin-left: 80px;
+    margin-top: 5px;
+    border: 2px solid #000;
+    background-color: #f1f1f1;
+    position: absolute;
+}
+
+.ltail3 {
+    height: 20px;
+    width: 22px;
+    border-radius: 100px;
+    margin-left: 43px;
+    margin-top: 10px;
+    border: 5px solid #CEEBFA;
+    position: absolute;
+    transform: rotate(-20deg);
+}
+
+.ltail4 {
+    height: 26px;
+    width: 28px;
+    border-radius: 100px;
+    margin-left: 43px;
+    margin-top: 10px;
+    border: 2px solid #000;
+    position: absolute;
+    transform: rotate(-20deg);
+}
+
+.ltail5 {
+    height: 17px;
+    width: 18px;
+    border-radius: 100px;
+    margin-left: 48px;
+    margin-top: 14px;
+    border: 2px solid #000;
+    position: absolute;
+    transform: rotate(-20deg);
+}
+
+.ltail6 {
+    height: 6px;
+    width: 4px;
+    border-radius: 100px;
+    margin-left: 43px;
+    margin-top: 10px;
+    border: 2px solid #000;
+    position: absolute;
+    background-color: #CEEBFA;
+    z-index: 8;
+}
+
+.ltail7 {
+    height: 6px;
+    width: 3px;
+    border-radius: 100px;
+    margin-left: 46px;
+    margin-top: 8px;
+    position: absolute;
+    background-color: #CEEBFA;
+    z-index: 8;
+    transform: rotate(15deg);
+}
+
+
+.swordcat-leg-right {
+    height: 19px;
+    width: 10px;
+    border-radius: 10%;
+    position: absolute;
+    margin-top: -18px;
+    margin-left: 78px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    background-color: #CEEBFA;
+    transform: rotate(-5deg);
+}
+
+.swordcat-circle3 {
+    position: absolute;
+    height: 34px;
+    width: 22px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 81px;
+    border-right: 2px solid black;
+    background-color: #CEEBFA;
+    transform: rotate(20deg);
+}
+
+.swordcat-leg2 {
+    height: 7px;
+    width: 20px;
+    border-radius: 100px;
+    margin-left: 67px;
+    margin-top: 6px;
+    border: 2px solid #000;
+    position: absolute;
+    background-color: #CEEBFA;
+    z-index: 8;
+    transform: rotate(-10deg);
+}
+
+.swordcat-leg3 {
+    height: 10px;
+    width: 13px;
+    margin-left: 79px;
+    margin-top: 4px;
+    position: absolute;
+    background-color: #CEEBFA;
+    z-index: 8;
+    transform: rotate(10deg);
+}
+
+.swordcat-arm {
+    position: absolute;
+    height: 35px;
+    width: 70px;
+    margin-top: -58px;
+    margin-left: 18px;
+}
+
+.swordcat-head {
+    position: absolute;
+    height: 35px;
+    width: 40px;
+    margin-top: -75px;
+    margin-left: 42px;
+}
+
+.shead-1 {
+    position: absolute;
+    height: 30px;
+    width: 32px;
+    border-radius: 100%;
+    border: 2px solid #000;
+    margin-top: -5px;
+    margin-left: -1px;
+    background-color: #CEEBFA;
+}
+
+.blep {
+    position: absolute;
+    height: 10px;
+    width: 5px;
+    border: 2px solid #000;
+    background-color: #F33C6B;
+    border-radius: 80%;
+    margin-top: 17px;
+    margin-left: 11px;
+}
+
+.sface1 {
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    border-radius: 100%;
+    border-bottom: 2px solid #000;
+    margin-top: 13px;
+    margin-left: 8px;
+    background-color: #CEEBFA;
+    transform: rotate(-20deg);
+}
+
+.sface2 {
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    border-radius: 100%;
+    border-bottom: 2px solid #000;
+    margin-top: 13px;
+    margin-left: 15px;
+    background-color: #CEEBFA;
+    transform: rotate(20deg);
+}
+
+.sface-nose {
+position: absolute;
+  width: 0; 
+  height: 0; 
+  margin-top: 16px;
+  margin-left: 13px;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-top: 2px solid #000;
+}
+
+.sface-eye1 {
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    border-radius: 100%;
+    border-bottom: 2px solid #000;
+    margin-top: 7px;
+    margin-left: 3px;
+    transform: rotate(-10deg);
+}
+
+.sface-eye2 {
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    border-radius: 100%;
+    border-bottom: 2px solid #000;
+    margin-top: 7px;
+    margin-left: 20px;
+    transform: rotate(10deg);
+}
+
+.sface-lear1 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    margin-top: -9px;
+    margin-left: -2px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 10px solid #000;
+    transform: rotate(-28deg);
+}
+
+.sface-lear2 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    margin-top: -6px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 10px solid #CEEBFA;
+    transform: rotate(-28deg);
+}
+
+.sface-rear1 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    margin-top: -6px;
+    margin-left: 26px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 10px solid #000;
+    transform: rotate(45deg);
+}
+
+.sface-rear2 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    margin-top: -4px;
+    margin-left: 24px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 10px solid #CEEBFA;
+    transform: rotate(45deg);
+}
+
+.sarm1 {
+    height: 6px;
+    width: 20px;
+    border-radius: 100px;
+    margin-left: 39px;
+    margin-top: 10px;
+    border: 2px solid #000;
+    position: absolute;
+    background-color: #CEEBFA;
+    z-index: 8;
+    transform: rotate(-25deg);
+}
+
+.sarm2 {
+    height: 6px;
+    width: 13px;
+    border-radius: 100px;
+    margin-left: 33px;
+    margin-top: 12px;
+    border: 2px solid #000;
+    position: absolute;
+    background-color: #CEEBFA;
+    z-index: 8;
+    transform: rotate(20deg);
+}
+
+.sarm3 {
+    height: 6px;
+    width: 9px;
+    border-radius: 100px;
+    margin-left: 28px;
+    margin-top: 10px;
+    border: 2px solid #000;
+    position: absolute;
+    background-color: #CEEBFA;
+    z-index: 8;
+    transform: rotate(-20deg);
+}
+
+.sarm4 {
+    height: 6px;
+    width: 9px;
+    border-radius: 100px;
+    margin-left: 33px;
+    margin-top: 12px;
+    position: absolute;
+    background-color: #CEEBFA;
+    z-index: 8;
+    transform: rotate(20deg);
+}
+
+.sarm5 {
+    height: 6px;
+    width: 9px;
+    border-radius: 100px;
+    margin-left: 43px;
+    margin-top: 14px;
+    position: absolute;
+    background-color: #CEEBFA;
+    z-index: 8;
+    transform: rotate(-25deg);
+}
+
+.sarm6 {
+    height: 7px;
+    width: 11px;
+    border-radius: 100px;
+    margin-left: 53px;
+    margin-top: 14px;
+    position: absolute;
+    background-color: #CEEBFA;
+    z-index: 8;
+    /* transform: rotate(70deg); */
+}
+
+.sarm7 {
+    height: 20px;
+    width: 2px;
+    margin-left: 40px;
+    margin-top: 21px;
+    position: absolute;
+    background-color: #000;
+    z-index: 8;
+}
+
+.sarm8 {
+    height: 8px;
+    width: 2px;
+    margin-left: 40px;
+    margin-top: 45px;
+    position: absolute;
+    background-color: #000;
+    z-index: 8;
+}
+
+/* red cat */
+.redcat-front {
+    position: absolute;
+    margin-top:80px;
+    margin-left: 80px;
+    z-index:5;
+    /* background-color: orange; */
+    width:190px;
+    height:100px;
+    /* opacity: 0.7; */
+}
+
+.redcat-face {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 110px;
+    /* background-color: teal; */
+    width: 80px;
+    height: 100px;
+    /* opacity: 0.7; */
+}
+
+.rface1 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 47px;
+    background-color: #F3793C;
+    border: 2px solid #000;
+    width: 28px;
+    height: 34px;
+    border-radius: 100%;
+    transform: rotate(43deg);
+}
+
+.rface2 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 52px;
+    background-color: #F3793C;
+    border-top: 2px solid #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    transform: rotate(-45deg);
+}
+
+.rface3 {
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 45px;
+    background-color: #F3793C;
+    border-top: 2px solid #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    transform: rotate(-45deg);
+}
+
+.rface4 {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 51px;
+    background-color: #F3793C;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    /* transform: rotate(-45deg); */
+}
+
+.rrear1 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    margin-top: 44px;
+    margin-left: 57px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 13px solid #000;
+    transform: rotate(-15deg);
+}
+
+.rrear2 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    margin-top: 40px;
+    margin-left: 56px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 13px solid #F3793C;
+    transform: rotate(-15deg);
+}
+
+.rlear1 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    margin-top: 15px;
+    margin-left: 75px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 13px solid #000;
+    transform: rotate(-100deg);
+}
+
+.rlear2 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    margin-top: 16px;
+    margin-left: 71px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 13px solid #F3793C;
+    transform: rotate(-100deg);
+}
+
+.rnose {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    margin-top: 19px;
+    margin-left: 50px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid #000;
+    transform: rotate(-45deg);
+}
+
+.reye1 {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 54px;
+    border-right: 2px solid #000;
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    transform: rotate(35deg);
+}
+
+.reye2 {
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 45px;
+    border-right: 2px solid #000;
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    transform: rotate(50deg);
+}
+
+.redcat-arms {
+    width: 60px;
+    height: 40px;
+    margin-left: 130px;
+    position: absolute;
+    transform: rotate(-50deg);
+}
+
+.redcat-arm1 {
+    width: 9px;
+    height: 17px;
+    margin-left: 8px;
+    margin-top: 13px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 70%;
+    background-color: #F3793C;
+}
+
+.redcat-arm2 {
+    position: absolute;
+    width: 9px;
+    height: 17px;
+    margin-left: 40px;
+    margin-top: -20px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 70%;
+    background-color: #F3793C;
+}
+
+.redcat-arm3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: -30px;
+    margin-top: -20px;
+    border-right: 2px solid black;
+    border-radius: 70%;
+    background-color: #F3793C;
+    transform: rotate(-20deg);
+}
+
+.redcat-leg {
+    position: absolute;
+    width: 17px;
+    height: 9px;
+    margin-left: -26px;
+    margin-top: -23px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 70%;
+    background-color: #F3793C;
+    transform: rotate(-20deg);
+}
+
+.redcat-back {
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    margin-left: 180px;
+    margin-top: 80px;
+    position: absolute;
+    transform: rotate(-50deg);
+}
+
+.redcat-body {
+    position: absolute;
+    width: 55px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: #F3793C;
+}
+
+.redcat-tail2 {
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    margin-left: -14px;
+    margin-top: 44px;
+    border-top: 3px solid black;
+    border-radius: 70%;
+    transform: rotate(-5deg);
+}
+
+.redcat-tail3 {
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    margin-left: -15px;
+    margin-top: 49px;
+    border-top: 3px solid black;
+    border-radius: 70%;
+    transform: rotate(-10deg);
+}
+
+.redcat-tail1 {
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    margin-left: -15px;
+    margin-top: 46px;
+    border-top: 4px solid #F3793C;
+    border-radius: 70%;
+    transform: rotate(-10deg);
+}
+
+/* top right cat */
+.tr-cat {
+    position: absolute;
+    width: 70px;
+    height: 100px;
+    margin-top: -200px;
+    margin-left: 220px;
+}
+
+.tr-cat-body {
+    width: 30px;
+    height: 55px;
+    margin-top: 20px;
+    margin-left: 13px;
+    background-color: #FCEF20;
+    border-radius: 20px;
+    border: 2px solid #000;
+}
+
+.tr-rleg1 {
+    width: 14px;
+    height: 28px;
+    margin-top: -25px;
+    margin-left: 33px;
+    background-color: #FCEF20;
+    border-radius: 40%;
+    border-right: 2px solid #000;
+    transform: rotate(10deg);
+}
+
+.tr-rleg2 {
+    position: absolute;
+    width: 12px;
+    height: 20px;
+    margin-top: -26px;
+    margin-left: 30px;
+    border-radius: 60%;
+    border-left: 2px solid #000;
+    border-top: 2px solid #000;
+}
+
+.tr-rleg3 {
+    position: absolute;
+    width: 12px;
+    height: 7px;
+    margin-top: -7px;
+    margin-left: 30px;
+    border-radius: 60%;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    background-color: #FCEF20;
+}
+
+.tr-lleg {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -3px;
+    transform: scaleX(-1);
+}
+
+.tr-rarm {
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    margin-top: -50px;
+    margin-left: 30px;
+    transform: rotate(20deg);
+}
+
+.tr-larm {
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    margin-top: -52px;
+    margin-left: 9px;
+    transform: rotate(40deg);
+    transform: scaleX(-1);
+}
+
+.tr-arm1 {
+    position: absolute;
+    width: 14px;
+    height: 7px;
+    border-radius: 60%;
+    border-left: 2px solid #000;
+    border-top: 2px solid #000;
+    background-color: #FCEF20;
+}
+
+.tr-arm2 {
+    position: absolute;
+    margin-top: 8px;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    border-right: 2px solid #000;
+    transform: rotate(-10deg);
+}
+
+.tr-head1 {
+    position: absolute;
+    width: 28px;
+    height: 27px;
+    margin-top: -81px;
+    margin-left: 13px;
+    background-color: #FCEF20;
+    border-radius: 100%;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+}
+
+.tr-lear1 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    margin-top: -86px;
+    margin-left: 9px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 12px solid #000;
+    transform: rotate(-40deg);
+}
+
+.tr-lear2 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    margin-top: -83px;
+    margin-left: 12px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 12px solid #FCEF20;
+    transform: rotate(-40deg);
+}
+
+.tr-rear1 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    margin-top: -87px;
+    margin-left: 34px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 12px solid #000;
+    transform: rotate(30deg);
+}
+
+.tr-rear2 {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    margin-top: -83px;
+    margin-left: 32px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 12px solid #FCEF20;
+    transform: rotate(30deg);
+}
+
+.tr-eye1 {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    margin-top: -67px;
+    margin-left: 18px;
+    background-color: #000;
+    border-radius: 100%;
+}
+
+.tr-eye2 {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    margin-top: -67px;
+    margin-left: 32px;
+    background-color: #000;
+    border-radius: 100%;
+}
+
+.tr-nose {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    margin-top: -63px;
+    margin-left: 24px;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 3px solid #000;
+}
+
+.tr-tail2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: -111px;
+    margin-left: 11px;
+    background-color: #000;
+    clip-path: polygon(41% 87%, 44% 86%, 46% 83%, 46% 79%, 44% 74%, 44% 70%, 48% 64%, 51% 61%, 58% 60%, 63% 60%, 68% 57%, 68% 56%, 66% 54%, 62% 52%, 58% 51%, 53% 51%, 46% 53%, 42% 55%, 38% 60%, 38% 64%, 38% 69%, 39% 78%, 39% 82%, 34% 85%, 35% 90%, 38% 91%);
+}
+
+.tr-tail3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: -110px;
+    margin-left: 9px;
+    background-color: #FCEF20;
+    clip-path: polygon(41% 87%, 44% 86%, 46% 83%, 46% 79%, 44% 74%, 44% 70%, 48% 64%, 51% 61%, 58% 60%, 63% 60%, 68% 57%, 68% 56%, 66% 54%, 62% 52%, 58% 51%, 53% 51%, 46% 53%, 42% 55%, 38% 60%, 38% 64%, 38% 69%, 39% 78%, 39% 82%, 34% 85%, 35% 90%, 38% 91%);
+}
