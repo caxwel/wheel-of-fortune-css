@@ -541,7 +541,6 @@ position: absolute;
     position: absolute;
     background-color: #CEEBFA;
     z-index: 8;
-    /* transform: rotate(70deg); */
 }
 
 .sarm7 {
@@ -570,20 +569,16 @@ position: absolute;
     margin-top:80px;
     margin-left: 80px;
     z-index:5;
-    /* background-color: orange; */
     width:190px;
     height:100px;
-    /* opacity: 0.7; */
 }
 
 .redcat-face {
     position: absolute;
     margin-top: 0px;
     margin-left: 110px;
-    /* background-color: teal; */
     width: 80px;
     height: 100px;
-    /* opacity: 0.7; */
 }
 
 .rface1 {
@@ -1021,20 +1016,477 @@ position: absolute;
 
 .tr-tail2 {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    margin-top: -111px;
-    margin-left: 11px;
-    background-color: #000;
-    clip-path: polygon(41% 87%, 44% 86%, 46% 83%, 46% 79%, 44% 74%, 44% 70%, 48% 64%, 51% 61%, 58% 60%, 63% 60%, 68% 57%, 68% 56%, 66% 54%, 62% 52%, 58% 51%, 53% 51%, 46% 53%, 42% 55%, 38% 60%, 38% 64%, 38% 69%, 39% 78%, 39% 82%, 34% 85%, 35% 90%, 38% 91%);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-top: -12px;
+    margin-left: 35px;
+    border-top: 4px solid #fcef20;
+    border-right: 4px solid #fcef20;
 }
 
 .tr-tail3 {
     position: absolute;
-    width: 100px;
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    margin-top: 1px;
+    margin-left: 43px;
+    border-bottom: 4px solid #fcef20;
+    border-left: 4px solid #fcef20;
+}
+
+.tr-tail4 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-top: -13px;
+    margin-left: 36px;
+    border-top: 4px solid #000;
+    border-right: 4px solid #000;
+}
+
+.tr-tail5 {
+    position: absolute;
+    width: 30px;
+    height: 26px;
+    border-radius: 100%;
+    margin-top: -11px;
+    margin-left: 34px;
+    border-top: 4px solid #000;
+    border-right: 4px solid #000;
+}
+
+.tr-tail6 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin-top: 1px;
+    margin-left: 44px;
+    border-bottom: 4px solid #000;
+    border-left: 4px solid #000;
+}
+
+.tr-tail7 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    margin-top: 2px;
+    margin-left: 42px;
+    border-bottom: 4px solid #000;
+    border-left: 4px solid #000;
+}
+
+/* top left cat */
+.tl-cat {
+    position: absolute;
+    width: 70px;
     height: 100px;
-    margin-top: -110px;
-    margin-left: 9px;
+    margin-top: -200px;
+    margin-left: 30px;
+}
+
+.tl-cat-body {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 28px;
+    height: 40px;
+    border-radius: 40%;
+    background-color: #fcef20;
+    border: 2px solid #000;
+}
+
+.tl-cat-leg1 {
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 5px;
+    width: 20px;
+    height: 25px;
+    border-radius: 80%;
+    background-color: #fcef20;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.tl-cat-leg2 {
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 10px;
+    width: 15px;
+    height: 6px;
+    border-radius: 40%;
+    background-color: #fcef20;
+    border: 2px solid #000;
+    transform: rotate(15deg);
+}
+
+.tl-cat-leg3 {
+    position: absolute;
+    margin-top: 63px;
+    margin-left: 10px;
+    width: 8px;
+    height: 7px;
+    border-radius: 60%;
+    background-color: #fcef20;
+}
+
+.tl-cat-leg4 {
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 38px;
+    width: 6px;
+    height: 29px;
+    border-radius: 40%;
+    background-color: #fcef20;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    transform: rotate(-22deg);
+}
+.tl-cat-leg5 {
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 25px;
+    width: 6px;
+    height: 29px;
+    border-radius: 40%;
+    background-color: #fcef20;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.tl-cat-leg6 {
+    position: absolute;
+    margin-top: 63px;
+    margin-left: 25px;
+    width: 15px;
+    height: 6px;
+    border-radius: 40%;
+    background-color: #fcef20;
+    border: 2px solid #000;
+    transform: rotate(15deg);
+}
+
+.tl-cat-circle {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 27px;
+    width: 15px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: #fcef20;
+    transform: rotate(-15deg);
+}
+
+.tl-cat-head {
+    width: 40px;
+    height: 40px;
+    margin-top: 86px;
+    margin-left: -18px;
+    position: absolute;
+    transform: rotate(15deg);
+}
+
+.tlmouth1 {
+    position: absolute;
+    margin-top: -66px;
+    margin-left: 25px;
     background-color: #FCEF20;
-    clip-path: polygon(41% 87%, 44% 86%, 46% 83%, 46% 79%, 44% 74%, 44% 70%, 48% 64%, 51% 61%, 58% 60%, 63% 60%, 68% 57%, 68% 56%, 66% 54%, 62% 52%, 58% 51%, 53% 51%, 46% 53%, 42% 55%, 38% 60%, 38% 64%, 38% 69%, 39% 78%, 39% 82%, 34% 85%, 35% 90%, 38% 91%);
+    border-right: 1px solid #000;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    transform: rotate(40deg);
+}
+
+.tlmouth2 {
+    position: absolute;
+    margin-top: -66px;
+    margin-left: 30px;
+    background-color: #FCEF20;
+    border-left: 1px solid #000;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    transform: rotate(-40deg);
+}
+
+.tlnose {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    margin-top: -64px;
+    margin-left: 29px;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 3px solid #000;
+}
+
+.tleye1 {
+    position: absolute;
+    width: 4px; 
+    height: 4px; 
+    margin-top: -66px;
+    margin-left: 22px;
+    border-radius: 100%;
+    background-color: #000;
+}
+
+.tleye2 {
+    position: absolute;
+    width: 4px; 
+    height: 4px; 
+    margin-top: -66px;
+    margin-left: 35px;
+    border-radius: 100%;
+    background-color: #000;
+}
+
+
+.tl-tail {
+    position: absolute;
+    transform: rotate(180deg);
+    margin-top: 75px;
+    margin-left: 64px;
+}
+
+/* bottom-left cat */
+
+.bl-cat {
+    position: absolute;
+    width: 100px;
+    height: 75px;
+    margin-top: 210px;
+    margin-left: 15px;
+}
+
+.bl-cat-body {
+    width: 55px;
+    height: 27px;
+    margin-top: 20px;
+    margin-left: 13px;
+    background-color: #FCEF20;
+    border-radius: 20px;
+    border: 2px solid #000;
+    transform: rotate(-10deg);
+}
+
+.bl-cat-leg1 {
+    position: absolute;
+    width: 33px;
+    height: 29px;
+    margin-top: -30px;
+    margin-left: 10px;
+    background-color: #FCEF20;
+    border-radius: 20px;
+    border-left: 2px solid #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.bl-cat-leg2 {
+    position: absolute;
+    width: 17px;
+    height: 8px;
+    margin-top: -6px;
+    margin-left: 30px;
+    background-color: #FCEF20;
+    border-radius: 40%;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.bl-cat-head {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 34px;
+    margin-left: 40px;
+}
+
+.bleye1 {
+    position: absolute;
+    margin-top: -67px;
+    margin-left: 20px;
+    border-top: 2px solid #000;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    transform: rotate(-5deg);
+}
+
+.bleye2 {
+    position: absolute;
+    margin-top: -67px;
+    margin-left: 34px;
+    border-top: 2px solid #000;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    transform: rotate(5deg);
+}
+
+.blarm {
+    position: absolute;
+    width: 22px;
+    height: 8px;
+    margin-top: -10px;
+    margin-left: 52px;
+    background-color: #FCEF20;
+    border-radius: 40%;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.bltail {
+    position: absolute;
+    width: 22px;
+    height: 4px;
+    margin-top: -10px;
+    margin-left: -4px;
+    background-color: #FCEF20;
+    border-radius: 30%;
+    border: 2px solid #000;
+}
+
+/* bottom right cat */
+
+.br-cat {
+    position: absolute;
+    width: 100px;
+    height: 75px;
+    margin-top: 220px;
+    margin-left: 190px;
+    transform: scaleX(-1);
+}
+
+.blep2 {
+    position: absolute;
+    margin-top: -63px;
+    margin-left: 29px;
+    background-color: #F33C6B;
+    width: 2px;
+    height: 4px;
+    border: 1px solid #000;
+    border-radius: 40%;
+}
+
+.breye1 {
+    position: absolute;
+    margin-top: -67px;
+    margin-left: 21px;
+    background-color: #000;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+}
+
+.breye2 {
+    position: absolute;
+    margin-top: -67px;
+    margin-left: 36px;
+    background-color: #000;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+}
+
+/* book */
+
+.book {
+    width: 55px;
+    height: 35px;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 70px;
+    transform: rotate(10deg);
+
+}
+
+.book1 {
+    margin-left: 15px;
+    position: absolute;
+    height: 22px;
+    width: 28px;
+    background-color: #fff;
+    border: 2px solid #000;
+    transform: rotate(10deg);
+}
+.book2 {
+    margin-left: 13px;
+    margin-top: 2px;
+    position: absolute;
+    height: 22px;
+    width: 28px;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+.book3 {
+    margin-left: 12px;
+    margin-top: 19px;
+    position: absolute;
+    height: 20px;
+    width: 29px;
+    background-color: #fff;
+    border: 2px solid #000;
+    transform: rotate(2deg);
+}
+
+.book4 {
+    margin-left: 11px;
+    margin-top: 19px;
+    position: absolute;
+    height: 20px;
+    width: 29px;
+    background-color: #fff;
+    border: 2px solid #000;
+    transform: rotate(10deg);
+}
+
+.book5 {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 12px;
+    height: 4px;
+    border-top: solid 2px #000;
+    border-bottom: solid 2px #000;
+    transform: rotate(100deg);
+}
+
+.booktop {
+    width: 55px;
+    height: 35px;
+    position: absolute;
+    margin-top: -175px;
+    margin-left: 60px;
+    transform: rotate(50deg);
+
+}
+
+.booktop-right {
+    width: 55px;
+    height: 35px;
+    position: absolute;
+    margin-top: -165px;
+    margin-left: 185px;
+    transform: rotate(120deg);
+
+}
+
+.book-right {
+    width: 55px;
+    height: 35px;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 185px;
+    transform: rotate(-10deg);
+
 }
