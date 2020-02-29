@@ -18,4 +18,4 @@ Perfect for my first time making art in pure CSS!
 * A lot of different techniques went into creating this, so if you're interested in CSS I recommend seeing what I did.
 
 ## Author
-☾　**Max Turer** - [caxwel][https://github.com/caxwel]
+☾　**Max Turer** - [caxwel](https://github.com/caxwel)
