@@ -1,7 +1,7 @@
 # THE WHEEL OF FORTUNE, MAJOR ARCANA
 🌕☀️🌕☀️🌕
 
-Pure CSS vector art experiment!
+~Pure CSS vector art experiment~
 The wheel of fortune is a tarot card representing chance, randomness, unpredictability...
 Perfect for my first time making art in pure CSS!
 
@@ -14,7 +14,7 @@ Perfect for my first time making art in pure CSS!
 
 ### two css style sheets
 
-* A lot of different techniques went into creating this, so if you're interested in CSS I recommend seeing what I did!
+* A lot of different techniques went into creating this, so if you're interested in CSS I recommend seeing what I did.
 
 ## Author
 ☾　**Max Turer** - [caxwel][https://github.com/caxwel]
